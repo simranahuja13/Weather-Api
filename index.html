@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Api</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="main-page">
+        <div id="main">
+            <h1>Weather Api</h1>
+            <button id="fetch-btn" onClick="fetchbtnClicked()"> Fetch Data </button>
+        </div>
+        <div class="landing-page ">
+            <h1>Welcome To The Weather App</h1>
+            <p>Here is your current location</p>
+            <div class="container ">
+                <h3 class="box">Lat : <span id="spanLat"></span> </h3>
+                    <h3 class="box" >Long : <span id="spanLong"></span> </h3>
+            </div>
+            <center id="center">
+                <!-- map to be shown here -->
+            </center>
+          
+        </div>
+        <div class="last-page">
+            <h1>Your Weather Data </h1>
+            <div class="container">
+                <h3 class="box">location :  <span id="spanLocation"></span> </h3>
+                <h3 class="box"> wind Speed : <span id="spanSpeed"></span> </h3>
+                <h3 class="box">  humidity : <span id="spanHumidity"></span> </h3>
+                <h3 class="box"> time zone : <span id="spanTZ"></span> </h3>
+                <h3 class="box"> pressure : <span id="spanPress"></span> </h3>
+                <h3 class="box"> wind direction : <span id="spanWD"></span> </h3>
+                <h3 class="box"> UV index : <span id="spanUV"></span> </h3>
+                <h3 class="box">feels like : <span id="spanFL"></span> </h3>
+                
+            </div>
+        
+          
+            </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
