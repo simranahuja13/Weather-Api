@@ -12,6 +12,8 @@ html,
 body {
     height: 100%;
     width: 100%;
+    margin: 0;
+    padding: 0;
     
 
 }
@@ -122,11 +124,10 @@ h3 {
 
 /* responsive */
 @media (max-width:500px) {
-   #main {
-    width: 1065px;
-    height: 1900px;
-    background: aquamarine
-   } 
+    #main {
+        height: 100vh; /* 100% of the viewport height */
+        width: 100vw; /* 100% of the viewport width */
+    } 
    #main h1 {
     font-size: 80px ;
    }
