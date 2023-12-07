@@ -122,7 +122,7 @@ h3 {
 /* responsive */
 @media (max-width:500px) {
    #main {
-    width: 200%;
+    width: 150%;
     height: 200%;
    } 
    #main h1 {
