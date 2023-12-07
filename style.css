@@ -122,8 +122,8 @@ h3 {
 /* responsive */
 @media (max-width:500px) {
    #main {
-    width: 100%;
-    height: 100%;
+    width: 200%;
+    height: 200%;
    } 
    #main h1 {
     font-size: 50px ;
